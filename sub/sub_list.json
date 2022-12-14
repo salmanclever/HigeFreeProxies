@@ -241,11 +241,11 @@
   },
   {
     "id": 30,
-    "remarks": "poduv/poduv",
-    "site": "https://github.com/poduv/poduv",
-    "url": "https://raw.githubusercontent.com/poduv/poduv/i/long",
-    "update_method": "auto",
-    "enabled": false
+    "remarks": "mhmh1.top",
+    "site": "https://mhmh1.top/art/50306.html",
+    "url": "https://paste.ee/r/608pO/0|https://paste.ee/r/ReONS/0|https://paste.ee/r/JjYNT/0|https://paste.ee/r/eV9Q5/0|https://paste.ee/r/71SCe/0|https://paste.ee/r/ypbhM/0",
+    "update_method": "page_release",
+    "enabled": true
   },
   {
     "id": 31,
@@ -257,11 +257,11 @@
   },
   {
     "id": 32,
-    "remarks": "parkerpa/jsfxs",
-    "site": "https://github.com/parkerpa/jsfxs",
-    "url": "https://raw.githubusercontent.com/parkerpa/jsfxs/main/clash",
+    "remarks": "parkerpa/qw",
+    "site": "https://github.com/parkerpa/qw",
+    "url": "https://raw.githubusercontent.com/parkerpa/qw/main/clash",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 33,
