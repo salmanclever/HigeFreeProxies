@@ -1,7 +1,7 @@
 # HigeFreeProxies
-[![GitHub Workflow Status](https://github.com/alanbobs999/topfreeproxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/alanbobs999/TopFreeProxies/actions/workflows/get-proxies.yml) 
+[![GitHub Workflow Status](https://github.com/baipiao250/HigeFreeProxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/baipiao250/HigeFreeProxies/actions/workflows/get-proxies.yml) 
 
-![Watchers](https://img.shields.io/github/watchers/alanbobs999/topfreeproxies) ![Stars](https://img.shields.io/github/stars/alanbobs999/topfreeproxies) ![Forks](https://img.shields.io/github/forks/alanbobs999/topfreeproxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=alanbobs999.topfreeproxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+![Watchers](https://img.shields.io/github/watchers/baipiao250/HigeFreeProxies) ![Stars](https://img.shields.io/github/stars/baipiao250/HigeFreeProxies) ![Forks](https://img.shields.io/github/forks/baipiao250/HigeFreeProxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=baipiao250.HigeFreeProxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
 
 [仓库介绍](https://github.com/baipiao250/HigeFreeProxies#仓库介绍) | [使用方法](https://github.com/baipiao250/HigeFreeProxies#使用方法) | [节点信息](https://github.com/baipiao250/HigeFreeProxies#节点信息) | [软件推荐](https://github.com/baipiao250/HigeFreeProxies#客户端选择) | [仓库声明](https://github.com/baipiao250/HigeFreeProxies#仓库声明)
 
