@@ -43,7 +43,7 @@
     "id": 5,
     "remarks": "vpei/Free-Node-Merge",
     "site": "https://github.com/vpei/Free-Node-Merge",
-    "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/out/node.txt",
+    "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
     "update_method": "auto",
     "enabled": true
   },
@@ -105,11 +105,11 @@
   },
   {
     "id": 13,
-    "remarks": "ldir92664/Vmess-Actions",
-    "site": "https://github.com/ldir92664/Vmess-Actions",
-    "url": "https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/clash.yml|https://raw.githubusercontent.com/ldir92664/Vmess-Actions/main/subscribe/clash-bihai.yml",
+    "remarks": "云监控+[公益节点分享]",
+    "site": "https://tz.fovi.tk",
+    "url": "https://yyds.fovi.tk/psboruc34813owyhr.html",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 14,
