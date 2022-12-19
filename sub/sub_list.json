@@ -177,11 +177,11 @@
   },
   {
     "id": 22,
-    "remarks": "TG@getv2ray",
-    "site": "https://t.me/getv2ray",
-    "url": "http://hzx852iu28.youhui112.com/subscribe",
+    "remarks": "hkaa0/permalink",
+    "site": "https://github.com/hkaa0/permalink",
+    "url": "https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray|https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 23,
