@@ -58,7 +58,7 @@ class update():
     def change_date(self,id,current_url):
         if id == 40:
             today = datetime.today().strftime('%Y%m%d')
-            this_month = datetime.today().strftime('%Y%m')
+            this_month = datetime.today().strftime('%m')
             this_year = datetime.today().strftime('%Y')
             url_front = 'https://clashnode.com/wp-content/uploads/'
             url_end = '.txt'
