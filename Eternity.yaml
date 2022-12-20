@@ -5,98 +5,98 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "EJP1(youtube阿伟科技)152\r", server: dl-jp1.efyunpan.com, port: 443, type: trojan, password: 0309574c-41ea-4b07-b2f0-de3fc2622eef, sni: data-jp.efyunpan.com, skip-cert-verify: true}
-  - {name: "EHK5(youtube阿伟科技)151\r", server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 0309574c-41ea-4b07-b2f0-de3fc2622eef, sni: data-hk.efyunpan.com, skip-cert-verify: true}
-  - {name: ESG2(youtube阿伟科技)153, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 0309574c-41ea-4b07-b2f0-de3fc2622eef, sni: data-sg.efyunpan.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡_1219005, server: 18.143.123.35, port: 80, type: vmess, uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 TG@hkaa0|新加坡 7, server: 139.99.68.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇯🇵 TG@hkaa0|日本, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇯🇵 TG@hkaa0|日本 19, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇯🇵 TG@hkaa0|日本 17, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇯🇵 TG@hkaa0|日本 14, server: 85.208.108.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇯🇵 TG@hkaa0|日本 16, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇳 台湾_1219028, server: 1.171.191.234, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(油管破解资源君) 2, server: 162.159.128.7, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}}
+  - {name: 🇯🇵 快嘴科技@来源：kkzui.com_日本_143, server: jp1.fun513.ga, port: 57486, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jp01, headers: {Host: jp1.fun513.ga}}}
+  - {name: 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161, server: skcc23.yukiss.eu.org, port: 18818, type: trojan, password: 8a03bc28-2a33-42c4-be59-30464dbb9954, skip-cert-verify: false}
+  - {name: 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209, server: skcc31.yukiss.eu.org, port: 10086, type: trojan, password: 8a03bc28-2a33-42c4-be59-30464dbb9954, skip-cert-verify: false}
+  - {name: 🇯🇵 TG@hkaa0|日本 10, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 TG@hkaa0|新加坡 8, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4}
-  - {name: "🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4", server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇰🇷 韩国_1219012, server: 103.138.80.193, port: 14485, type: vmess, uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 日本 19, server: os13.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本  3, server: do9.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /das321S8, headers: {Host: do9.yyhm9.com}}}
-  - {name: 🇸🇬 新加坡, server: 172.104.168.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
-  - {name: 🇯🇵 -日本-jp.indigo.02.nekocloud.cn, server: jp.indigo.02.nekocloud.cn, port: 19059, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇭🇰 -香港-29.douluo.beauty, server: 29.douluo.beauty, port: 56129, type: vmess, uuid: 03ee1643-e839-3ca4-bc2c-a919eca013f9, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 TG@hkaa0|新加坡 7, server: 139.99.68.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 TG@hkaa0|日本 17, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇯🇵 TG@hkaa0|日本 16, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵 JP 日本 31, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false}
+  - {name: 🇯🇵 TG@hkaa0|日本 14, server: 85.208.108.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇰🇷 TG@hkaa0|韩国 6, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_1220014, server: 103.138.80.193, port: 14485, type: vmess, uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_1220026, server: twtp.azzhuangaping.tw, port: 80, type: vmess, uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /adobe, headers: {Host: twtp.azzhuangaping.tw}}}
+  - {name: 🇯🇵 -日本-172.105.203.92, server: 172.105.203.92, port: 443, type: vmess, uuid: 8ddb31f1-6b0f-3abb-994e-d6316d755310, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 -日本-43.201.19.202, server: 43.201.19.202, port: 17420, type: vmess, uuid: 47e009cf-4e15-4b08-ae65-c96b31e478dd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 -香港-47.242.17.241, server: 47.242.17.241, port: 44207, type: vmess, uuid: 77c6c520-2d37-495a-a954-c8d056e89053, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: 🇭🇰 -香港-47.242.174.112, server: 47.242.174.112, port: 49564, type: vmess, uuid: 61a57665-7db8-424e-8cbf-b95f9dc9d799, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 -香港-47.243.36.34, server: 47.243.36.34, port: 26953, type: vmess, uuid: 6a1f0373-d449-4305-8e46-e72a789076d5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇸🇬 -新加坡-52.220.137.71, server: 52.220.137.71, port: 65528, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 -日本-jp-a.tencent.cfd, server: jp-a.tencent.cfd, port: 65528, type: vmess, uuid: 7a8a2158-ed62-4364-8ba9-937f0ab9d6f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-a.tencent.cfd}}}
-  - {name: 🇯🇵 -日本-jp-orcle2.clientsconnect.live, server: jp-orcle2.clientsconnect.live, port: 10086, type: vmess, uuid: a4d58b09-220d-4dfc-8577-a0dcad39f2f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-orcle2.clientsconnect.live}}}
+  - {name: 🇭🇰 -香港-47.243.29.114, server: 47.243.29.114, port: 25167, type: vmess, uuid: 3e870054-fc9c-4937-a7d9-f5878296da4d, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 -香港-8.210.104.101, server: 8.210.104.101, port: 61898, type: vmess, uuid: d1b4c525-f298-4c8c-9f8f-dd87dc32df0b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 -香港-8.210.96.225, server: 8.210.96.225, port: 29596, type: vmess, uuid: a8a20fa9-636e-4e4c-9739-4187beb0bb86, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download, server: agroup.node3.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 4527fe4e-0cb4-486c-a4e0-e7f58ff04396, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 -日本东京-jp5.loving123.cloud, server: jp5.loving123.cloud, port: 80, type: vmess, uuid: a6e8f911-02b8-43ca-a8fc-51a79d9fae48, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp5.loving123.cloud}}}
+  - {name: 🇯🇵 -日本-jp8.czs1000.com, server: jp8.czs1000.com, port: 20893, type: vmess, uuid: 89bde459-cdb9-4598-bee7-a2823919e90b, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 -日本-jp.muieupdata.top, server: jp.muieupdata.top, port: 11151, type: vmess, uuid: e28fb751-7982-4e58-9238-64e7391e2339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.muieupdata.top}}}
+  - {name: 🇯🇵 -日本-jp02.170203.xyz, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: 37954038-8647-4fe7-9854-66496af636a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
   - {name: 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, server: sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 11217, type: vmess, uuid: 89bde459-cdb9-4598-bee7-a2823919e90b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
-  - {name: 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, server: sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 4122, type: vmess, uuid: 89bde459-cdb9-4598-bee7-a2823919e90b, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇰🇷 -韩国-kr1.czs1000.com, server: kr1.czs1000.com, port: 8870, type: vmess, uuid: 4dfe7515-5080-41bc-9899-df1be1a246fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 -新加坡-sg4.sanfen001.pics, server: sg4.sanfen001.pics, port: 2001, type: vmess, uuid: 34f3a23d-bb24-4e68-8e51-60c49b503bdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
-  - {name: 🇸🇬 -新加坡-xin1.mooooobai.top, server: xin1.mooooobai.top, port: 15547, type: vmess, uuid: 7000f68f-cbcb-31e1-9cb4-897803f2edc3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xin1.mooooobai.top}}}
-  - {name: 🇨🇳 -台湾台北市-165.154.227.117, server: 165.154.227.117, port: 38526, type: vmess, uuid: 819d5842-d802-31c1-aaee-df6ab350ef7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 -日本-hk1.ningmengshui.cyou, server: hk1.ningmengshui.cyou, port: 80, type: vmess, uuid: 172f1bab-1f72-4de3-b857-b363422cf1a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: YouTube-aweikeji}}}
-  - {name: 🇯🇵 -日本-v2.583181.xyz, server: v2.583181.xyz, port: 80, type: vmess, uuid: 0c715bce-b12f-42c6-84c8-eeb10311378c, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v2.583181.xyz}}}
-  - {name: "🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】", server: 198.252.107.240, port: 80, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.ops.kgvn.garenanow.com}}}
-  - {name: "🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】", server: bgroup.node1.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 501e4691-3868-483c-a379-c2e2c8e85741}
-  - {name: "🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】", server: hk5.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16952:9bik8I, obfs-param: ""}
-  - {name: "🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】", server: bgroup.node3.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 501e4691-3868-483c-a379-c2e2c8e85741, skip-cert-verify: true}
-  - {name: "🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2", server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 152.69.230.170}}}
-  - {name: "🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】", server: bgroup.node1.v.nodelist-gfwairport1.download, port: 50001, type: vmess, uuid: 501e4691-3868-483c-a379-c2e2c8e85741, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 github.com/freefq - 日本  45, server: supsig.xiaohouzi.club, port: 10102, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, skip-cert-verify: false}
+  - {name: 🇸🇬 -新加坡-sg04.170203.xyz, server: sg04.170203.xyz, port: 43543, type: vmess, uuid: ad54057b-1a96-46d7-9823-6d4bed933153, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.170203.xyz}}}
+  - {name: 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, server: sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 4122, type: vmess, uuid: 8de0fa59-b864-4bb8-b459-1f09cf301e36, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 -台湾台北市-tw-yt03.dudunai.com, server: tw-yt03.dudunai.com, port: 33880, type: vmess, uuid: 00ac9d14-343f-4131-ac09-39384b4f421a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech, server: v-aws-tk-1.heima-bot.tech, port: 7771, type: vmess, uuid: 0c8c6a1b-c875-4b21-b9ec-f759e4b01e88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v-aws-tk-1.heima-bot.tech}}}
+  - {name: 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top, server: zebra2.2022.2025.mlinuu.top, port: 889, type: vmess, uuid: 79b8a4b5-df5a-3d49-8688-5dd6f12f696e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 -新加坡-172.104.183.241, server: 172.104.183.241, port: 43475, type: vmess, uuid: d60e3429-2309-404e-b2e5-7bebb63f49b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 -新加坡-sg1-v.sshmax.xyz, server: sg1-v.sshmax.xyz, port: 443, type: vmess, uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1-v.sshmax.xyz}}}
+  - {name: 🇭🇰 -香港-hk80.sanfen001.pics, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 13000e33-ccdd-415a-aea3-cf9b0c08e22f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk80.sanfen001.pics}}}
+  - {name: 🇯🇵 -日本-05rb.mealstream.xyz, server: 05rb.mealstream.xyz, port: 443, type: vmess, uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 -日本-26rb.mealstream.xyz, server: 26rb.mealstream.xyz, port: 16026, type: vmess, uuid: 8578dc92-3097-4dd5-941a-5e6ebeaa91ba, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 -韩国-kr4.hgwc.xyz, server: kr4.hgwc.xyz, port: 101, type: vmess, uuid: 4753033a-3779-4459-adf7-88970190c90a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr4.hgwc.xyz}}}
+  - {name: "🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】", server: hk1.safepn.net, port: 443, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.safepn.net}}}
   - {name: HK_AzadNet, server: 20.187.85.198, port: 443, type: trojan, password: b26e31e5-eac1-45b0-9069-83830bd69521, sni: hkt.iamnotagoodman.com, skip-cert-verify: true}
   - {name: HK_AzadNet(1), server: 104.208.100.101, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, sni: uk.liangyuandian.top, skip-cert-verify: true}
   - {name: JP_AzadNet, server: 45.66.134.219, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 美国_12191066, server: 104.25.250.198, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 38, server: buyvm.imkcp.eu.org, port: 443, type: vmess, uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /imkcpyyds, headers: {Host: buyvm.imkcp.eu.org}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN, server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 TG@hkaa0|美国 49, server: 193.239.87.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇦 TG@hkaa0|加拿大 23, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: JP_AzadNet(1), server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true}
+  - {name: JP_AzadNet(2), server: 132.226.5.246, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(油管破解资源君2.0) 8, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 14, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
   - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN, server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇫🇷 https//github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
-  - {name: github.com/mehdimoghaddam-cell_11, server: ca.0112233.xyz, port: 443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ca.0112233.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 47, server: 141.193.213.10, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN, server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇺🇸 美国(油管破解资源君2.0) 3, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇺🇸 快嘴科技@来源：kkzui.com_美国_118, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: v143.toddns.tk}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 12, server: 198.41.203.5, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君2.0) 10, server: sg-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/, headers: {Host: zoom.us}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇺🇸 TG@hkaa0|美国 57, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 TG@hkaa0|美国 92, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 TG@hkaa0|美国 133, server: 38.86.135.169, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 TG@hkaa0|美国 75, server: 167.88.62.62, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 TG@hkaa0|美国 140, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 TG@hkaa0|美国 100, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(油管破解资源君) 24, server: 172.99.190.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(油管破解资源君) 23, server: 172.99.188.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 TG@hkaa0|美国 54, server: 167.88.61.119, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: US_AzadNet(1), server: 172.99.188.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 TG@hkaa0|美国 102, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 24, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
+  - {name: "🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb", server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: github.com/mehdimoghaddam-cell 2, server: ca.0112233.xyz, port: 443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ca.0112233.xyz}}}
+  - {name: mianfeifq 161, server: 185.16.206.212, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: speednode_0038, server: content-provider1.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: TestingServer%40%40, skip-cert-verify: true}
   - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 未知_1219622, server: 104.20.58.122, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: speednode_0098, server: content-provider2.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: TestingServer%40%402, skip-cert-verify: true}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇺🇸_10, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇨🇦_1, server: 149.56.132.41, port: 80, type: trojan, password: fafb4232-9659-4867-886d-e47f4bda283e, sni: ca1.trojanvh.xyz, skip-cert-verify: true}
-  - {name: mianfeifq_121820226c7d-441trojan, server: content-provider6.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2, server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: mianfeifq 160, server: content-provider1.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: TestingServer%40%40, skip-cert-verify: true}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君) 41, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN, server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
+  - {name: 🇪🇺 欧洲(油管破解资源君) 9, server: 172.64.157.132, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /pineapple, headers: {Host: PineApple.CLOUDFLARE.QUEST}}}
+  - {name: 🇦🇺 快嘴科技@来源：kkzui.com_澳大利亚_96, server: au1.fun513.ga, port: 54564, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /au01, headers: {Host: au1.fun513.ga}}}
+  - {name: 🇹🇷 土耳其_1220001, server: 185.242.161.206, port: 25212, type: vmess, uuid: 43a988d1-8c8c-4303-9e03-8d651de6f376, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 3 2, server: teradacyou.mike22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false}
+  - {name: 130.0.233.2031675, server: 130.0.233.20, port: 31675, type: ss, cipher: aes-256-cfb, password: m7pZhBG}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 3, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 63, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 102, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: GB_AzadNet(13), server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 33, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: GB_AzadNet(8), server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,98 +112,98 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - "EJP1(youtube阿伟科技)152\r"
-      - "EHK5(youtube阿伟科技)151\r"
-      - ESG2(youtube阿伟科技)153
-      - 🇸🇬 新加坡_1219005
-      - 🇸🇬 TG@hkaa0|新加坡 7
-      - 🇯🇵 TG@hkaa0|日本
-      - 🇯🇵 TG@hkaa0|日本 19
-      - 🇯🇵 TG@hkaa0|日本 17
-      - 🇯🇵 TG@hkaa0|日本 14
-      - 🇯🇵 TG@hkaa0|日本 16
-      - 🇨🇳 台湾_1219028
+      - 🇸🇬 新加坡(油管破解资源君) 2
+      - 🇯🇵 快嘴科技@来源：kkzui.com_日本_143
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209
+      - 🇯🇵 TG@hkaa0|日本 10
       - 🇸🇬 TG@hkaa0|新加坡 8
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4
-      - 🇰🇷 韩国_1219012
-      - 🇯🇵 JP 日本 19
-      - 🇯🇵 github.com/freefq - 日本  3
-      - 🇸🇬 新加坡
-      - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 -香港-29.douluo.beauty
+      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇯🇵 TG@hkaa0|日本 17
+      - 🇯🇵 TG@hkaa0|日本 16
+      - 🇯🇵 JP 日本 31
+      - 🇯🇵 TG@hkaa0|日本 14
+      - 🇰🇷 TG@hkaa0|韩国 6
+      - 🇰🇷 韩国_1220014
+      - 🇨🇳 台湾_1220026
+      - 🇯🇵 -日本-172.105.203.92
+      - 🇯🇵 -日本-43.201.19.202
+      - 🇭🇰 -香港-47.242.17.241
       - 🇭🇰 -香港-47.242.174.112
-      - 🇭🇰 -香港-47.243.36.34
-      - 🇸🇬 -新加坡-52.220.137.71
-      - 🇯🇵 -日本-jp-a.tencent.cfd
-      - 🇯🇵 -日本-jp-orcle2.clientsconnect.live
+      - 🇭🇰 -香港-47.243.29.114
+      - 🇭🇰 -香港-8.210.104.101
+      - 🇭🇰 -香港-8.210.96.225
+      - 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download
+      - 🇯🇵 -日本东京-jp5.loving123.cloud
+      - 🇯🇵 -日本-jp8.czs1000.com
+      - 🇯🇵 -日本-jp.muieupdata.top
+      - 🇯🇵 -日本-jp02.170203.xyz
       - 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇰🇷 -韩国-kr1.czs1000.com
-      - 🇸🇬 -新加坡-sg4.sanfen001.pics
-      - 🇸🇬 -新加坡-xin1.mooooobai.top
-      - 🇨🇳 -台湾台北市-165.154.227.117
-      - 🇯🇵 -日本-hk1.ningmengshui.cyou
-      - 🇯🇵 -日本-v2.583181.xyz
+      - 🇸🇬 -新加坡-sg04.170203.xyz
+      - 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+      - 🇨🇳 -台湾台北市-tw-yt03.dudunai.com
+      - 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech
+      - 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top
+      - 🇸🇬 -新加坡-172.104.183.241
+      - 🇸🇬 -新加坡-sg1-v.sshmax.xyz
+      - 🇭🇰 -香港-hk80.sanfen001.pics
+      - 🇯🇵 -日本-05rb.mealstream.xyz
+      - 🇯🇵 -日本-26rb.mealstream.xyz
+      - 🇰🇷 -韩国-kr4.hgwc.xyz
       - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】
-      - 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2
-      - 🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 github.com/freefq - 日本  45
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 美国_12191066
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 TG@hkaa0|美国 49
-      - 🇨🇦 TG@hkaa0|加拿大 23
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - JP_AzadNet(1)
+      - JP_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君2.0) 8
+      - 🇺🇸 美国(油管破解资源君) 14
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
-      - 🇫🇷 https//github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
-      - github.com/mehdimoghaddam-cell_11
+      - 🇺🇸 美国(油管破解资源君) 47
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 3
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_118
+      - 🇺🇸 美国(油管破解资源君) 12
+      - 🇺🇸 美国(油管破解资源君2.0) 10
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 TG@hkaa0|美国 57
+      - 🇺🇸 TG@hkaa0|美国 92
+      - 🇺🇸 TG@hkaa0|美国 133
+      - 🇺🇸 TG@hkaa0|美国 75
+      - 🇺🇸 TG@hkaa0|美国 140
+      - 🇺🇸 TG@hkaa0|美国 100
+      - 🇺🇸 美国(油管破解资源君) 24
+      - 🇺🇸 美国(油管破解资源君) 23
+      - 🇺🇸 TG@hkaa0|美国 54
+      - US_AzadNet(1)
+      - 🇺🇸 TG@hkaa0|美国 102
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb
+      - github.com/mehdimoghaddam-cell 2
+      - mianfeifq 161
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - speednode_0038
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 未知_1219622
-      - speednode_0098
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇺🇸_10
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇨🇦_1
-      - mianfeifq_121820226c7d-441trojan
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - mianfeifq 160
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇪🇺 欧洲(油管破解资源君) 41
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
+      - 🇪🇺 欧洲(油管破解资源君) 9
+      - 🇦🇺 快嘴科技@来源：kkzui.com_澳大利亚_96
+      - 🇹🇷 土耳其_1220001
+      - 3 2
+      - 130.0.233.2031675
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 63
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 102
+      - GB_AzadNet(13)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 33
+      - GB_AzadNet(8)
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,400 +254,367 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "EJP1(youtube阿伟科技)152\r"
-      - "EHK5(youtube阿伟科技)151\r"
-      - ESG2(youtube阿伟科技)153
-      - 🇸🇬 新加坡_1219005
-      - 🇸🇬 TG@hkaa0|新加坡 7
-      - 🇯🇵 TG@hkaa0|日本
-      - 🇯🇵 TG@hkaa0|日本 19
-      - 🇯🇵 TG@hkaa0|日本 17
-      - 🇯🇵 TG@hkaa0|日本 14
-      - 🇯🇵 TG@hkaa0|日本 16
-      - 🇨🇳 台湾_1219028
+      - 🇸🇬 新加坡(油管破解资源君) 2
+      - 🇯🇵 快嘴科技@来源：kkzui.com_日本_143
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209
+      - 🇯🇵 TG@hkaa0|日本 10
       - 🇸🇬 TG@hkaa0|新加坡 8
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4
-      - 🇰🇷 韩国_1219012
-      - 🇯🇵 JP 日本 19
-      - 🇯🇵 github.com/freefq - 日本  3
-      - 🇸🇬 新加坡
-      - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 -香港-29.douluo.beauty
+      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇯🇵 TG@hkaa0|日本 17
+      - 🇯🇵 TG@hkaa0|日本 16
+      - 🇯🇵 JP 日本 31
+      - 🇯🇵 TG@hkaa0|日本 14
+      - 🇰🇷 TG@hkaa0|韩国 6
+      - 🇰🇷 韩国_1220014
+      - 🇨🇳 台湾_1220026
+      - 🇯🇵 -日本-172.105.203.92
+      - 🇯🇵 -日本-43.201.19.202
+      - 🇭🇰 -香港-47.242.17.241
       - 🇭🇰 -香港-47.242.174.112
-      - 🇭🇰 -香港-47.243.36.34
-      - 🇸🇬 -新加坡-52.220.137.71
-      - 🇯🇵 -日本-jp-a.tencent.cfd
-      - 🇯🇵 -日本-jp-orcle2.clientsconnect.live
+      - 🇭🇰 -香港-47.243.29.114
+      - 🇭🇰 -香港-8.210.104.101
+      - 🇭🇰 -香港-8.210.96.225
+      - 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download
+      - 🇯🇵 -日本东京-jp5.loving123.cloud
+      - 🇯🇵 -日本-jp8.czs1000.com
+      - 🇯🇵 -日本-jp.muieupdata.top
+      - 🇯🇵 -日本-jp02.170203.xyz
       - 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇰🇷 -韩国-kr1.czs1000.com
-      - 🇸🇬 -新加坡-sg4.sanfen001.pics
-      - 🇸🇬 -新加坡-xin1.mooooobai.top
-      - 🇨🇳 -台湾台北市-165.154.227.117
-      - 🇯🇵 -日本-hk1.ningmengshui.cyou
-      - 🇯🇵 -日本-v2.583181.xyz
+      - 🇸🇬 -新加坡-sg04.170203.xyz
+      - 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+      - 🇨🇳 -台湾台北市-tw-yt03.dudunai.com
+      - 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech
+      - 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top
+      - 🇸🇬 -新加坡-172.104.183.241
+      - 🇸🇬 -新加坡-sg1-v.sshmax.xyz
+      - 🇭🇰 -香港-hk80.sanfen001.pics
+      - 🇯🇵 -日本-05rb.mealstream.xyz
+      - 🇯🇵 -日本-26rb.mealstream.xyz
+      - 🇰🇷 -韩国-kr4.hgwc.xyz
       - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】
-      - 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2
-      - 🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 github.com/freefq - 日本  45
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 美国_12191066
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 TG@hkaa0|美国 49
-      - 🇨🇦 TG@hkaa0|加拿大 23
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - JP_AzadNet(1)
+      - JP_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君2.0) 8
+      - 🇺🇸 美国(油管破解资源君) 14
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
-      - 🇫🇷 https//github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
-      - github.com/mehdimoghaddam-cell_11
+      - 🇺🇸 美国(油管破解资源君) 47
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 3
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_118
+      - 🇺🇸 美国(油管破解资源君) 12
+      - 🇺🇸 美国(油管破解资源君2.0) 10
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 TG@hkaa0|美国 57
+      - 🇺🇸 TG@hkaa0|美国 92
+      - 🇺🇸 TG@hkaa0|美国 133
+      - 🇺🇸 TG@hkaa0|美国 75
+      - 🇺🇸 TG@hkaa0|美国 140
+      - 🇺🇸 TG@hkaa0|美国 100
+      - 🇺🇸 美国(油管破解资源君) 24
+      - 🇺🇸 美国(油管破解资源君) 23
+      - 🇺🇸 TG@hkaa0|美国 54
+      - US_AzadNet(1)
+      - 🇺🇸 TG@hkaa0|美国 102
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb
+      - github.com/mehdimoghaddam-cell 2
+      - mianfeifq 161
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - speednode_0038
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 未知_1219622
-      - speednode_0098
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇺🇸_10
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇨🇦_1
-      - mianfeifq_121820226c7d-441trojan
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - mianfeifq 160
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇪🇺 欧洲(油管破解资源君) 41
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
+      - 🇪🇺 欧洲(油管破解资源君) 9
+      - 🇦🇺 快嘴科技@来源：kkzui.com_澳大利亚_96
+      - 🇹🇷 土耳其_1220001
+      - 3 2
+      - 130.0.233.2031675
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 63
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 102
+      - GB_AzadNet(13)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 33
+      - GB_AzadNet(8)
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "EJP1(youtube阿伟科技)152\r"
-      - "EHK5(youtube阿伟科技)151\r"
-      - ESG2(youtube阿伟科技)153
-      - 🇸🇬 新加坡_1219005
-      - 🇸🇬 TG@hkaa0|新加坡 7
-      - 🇯🇵 TG@hkaa0|日本
-      - 🇯🇵 TG@hkaa0|日本 19
-      - 🇯🇵 TG@hkaa0|日本 17
-      - 🇯🇵 TG@hkaa0|日本 14
-      - 🇯🇵 TG@hkaa0|日本 16
-      - 🇨🇳 台湾_1219028
+      - 🇸🇬 新加坡(油管破解资源君) 2
+      - 🇯🇵 快嘴科技@来源：kkzui.com_日本_143
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209
+      - 🇯🇵 TG@hkaa0|日本 10
       - 🇸🇬 TG@hkaa0|新加坡 8
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4
-      - 🇰🇷 韩国_1219012
-      - 🇯🇵 JP 日本 19
-      - 🇯🇵 github.com/freefq - 日本  3
-      - 🇸🇬 新加坡
-      - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 -香港-29.douluo.beauty
+      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇯🇵 TG@hkaa0|日本 17
+      - 🇯🇵 TG@hkaa0|日本 16
+      - 🇯🇵 JP 日本 31
+      - 🇯🇵 TG@hkaa0|日本 14
+      - 🇰🇷 TG@hkaa0|韩国 6
+      - 🇰🇷 韩国_1220014
+      - 🇨🇳 台湾_1220026
+      - 🇯🇵 -日本-172.105.203.92
+      - 🇯🇵 -日本-43.201.19.202
+      - 🇭🇰 -香港-47.242.17.241
       - 🇭🇰 -香港-47.242.174.112
-      - 🇭🇰 -香港-47.243.36.34
-      - 🇸🇬 -新加坡-52.220.137.71
-      - 🇯🇵 -日本-jp-a.tencent.cfd
-      - 🇯🇵 -日本-jp-orcle2.clientsconnect.live
+      - 🇭🇰 -香港-47.243.29.114
+      - 🇭🇰 -香港-8.210.104.101
+      - 🇭🇰 -香港-8.210.96.225
+      - 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download
+      - 🇯🇵 -日本东京-jp5.loving123.cloud
+      - 🇯🇵 -日本-jp8.czs1000.com
+      - 🇯🇵 -日本-jp.muieupdata.top
+      - 🇯🇵 -日本-jp02.170203.xyz
       - 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇰🇷 -韩国-kr1.czs1000.com
-      - 🇸🇬 -新加坡-sg4.sanfen001.pics
-      - 🇸🇬 -新加坡-xin1.mooooobai.top
-      - 🇨🇳 -台湾台北市-165.154.227.117
-      - 🇯🇵 -日本-hk1.ningmengshui.cyou
-      - 🇯🇵 -日本-v2.583181.xyz
+      - 🇸🇬 -新加坡-sg04.170203.xyz
+      - 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+      - 🇨🇳 -台湾台北市-tw-yt03.dudunai.com
+      - 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech
+      - 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top
+      - 🇸🇬 -新加坡-172.104.183.241
+      - 🇸🇬 -新加坡-sg1-v.sshmax.xyz
+      - 🇭🇰 -香港-hk80.sanfen001.pics
+      - 🇯🇵 -日本-05rb.mealstream.xyz
+      - 🇯🇵 -日本-26rb.mealstream.xyz
+      - 🇰🇷 -韩国-kr4.hgwc.xyz
       - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】
-      - 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2
-      - 🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 github.com/freefq - 日本  45
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 美国_12191066
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 TG@hkaa0|美国 49
-      - 🇨🇦 TG@hkaa0|加拿大 23
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - JP_AzadNet(1)
+      - JP_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君2.0) 8
+      - 🇺🇸 美国(油管破解资源君) 14
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
-      - 🇫🇷 https//github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
-      - github.com/mehdimoghaddam-cell_11
+      - 🇺🇸 美国(油管破解资源君) 47
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 3
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_118
+      - 🇺🇸 美国(油管破解资源君) 12
+      - 🇺🇸 美国(油管破解资源君2.0) 10
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 TG@hkaa0|美国 57
+      - 🇺🇸 TG@hkaa0|美国 92
+      - 🇺🇸 TG@hkaa0|美国 133
+      - 🇺🇸 TG@hkaa0|美国 75
+      - 🇺🇸 TG@hkaa0|美国 140
+      - 🇺🇸 TG@hkaa0|美国 100
+      - 🇺🇸 美国(油管破解资源君) 24
+      - 🇺🇸 美国(油管破解资源君) 23
+      - 🇺🇸 TG@hkaa0|美国 54
+      - US_AzadNet(1)
+      - 🇺🇸 TG@hkaa0|美国 102
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb
+      - github.com/mehdimoghaddam-cell 2
+      - mianfeifq 161
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - speednode_0038
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 未知_1219622
-      - speednode_0098
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇺🇸_10
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇨🇦_1
-      - mianfeifq_121820226c7d-441trojan
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - mianfeifq 160
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇪🇺 欧洲(油管破解资源君) 41
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
+      - 🇪🇺 欧洲(油管破解资源君) 9
+      - 🇦🇺 快嘴科技@来源：kkzui.com_澳大利亚_96
+      - 🇹🇷 土耳其_1220001
+      - 3 2
+      - 130.0.233.2031675
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 63
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 102
+      - GB_AzadNet(13)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 33
+      - GB_AzadNet(8)
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 美国_12191066
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 TG@hkaa0|美国 49
-      - 🇨🇦 TG@hkaa0|加拿大 23
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 8
+      - 🇺🇸 美国(油管破解资源君) 14
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
+      - 🇺🇸 美国(油管破解资源君) 47
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 3
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_118
+      - 🇺🇸 美国(油管破解资源君) 12
+      - 🇺🇸 美国(油管破解资源君2.0) 10
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 TG@hkaa0|美国 57
+      - 🇺🇸 TG@hkaa0|美国 92
+      - 🇺🇸 TG@hkaa0|美国 133
+      - 🇺🇸 TG@hkaa0|美国 75
+      - 🇺🇸 TG@hkaa0|美国 140
+      - 🇺🇸 TG@hkaa0|美国 100
+      - 🇺🇸 美国(油管破解资源君) 24
+      - 🇺🇸 美国(油管破解资源君) 23
+      - 🇺🇸 TG@hkaa0|美国 54
+      - US_AzadNet(1)
+      - 🇺🇸 TG@hkaa0|美国 102
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "EJP1(youtube阿伟科技)152\r"
-      - "EHK5(youtube阿伟科技)151\r"
-      - ESG2(youtube阿伟科技)153
-      - 🇸🇬 新加坡_1219005
-      - 🇸🇬 TG@hkaa0|新加坡 7
-      - 🇯🇵 TG@hkaa0|日本
-      - 🇯🇵 TG@hkaa0|日本 19
-      - 🇯🇵 TG@hkaa0|日本 17
-      - 🇯🇵 TG@hkaa0|日本 14
-      - 🇯🇵 TG@hkaa0|日本 16
-      - 🇨🇳 台湾_1219028
+      - 🇸🇬 新加坡(油管破解资源君) 2
+      - 🇯🇵 快嘴科技@来源：kkzui.com_日本_143
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209
+      - 🇯🇵 TG@hkaa0|日本 10
       - 🇸🇬 TG@hkaa0|新加坡 8
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4
-      - 🇰🇷 韩国_1219012
-      - 🇯🇵 JP 日本 19
-      - 🇯🇵 github.com/freefq - 日本  3
-      - 🇸🇬 新加坡
-      - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 -香港-29.douluo.beauty
+      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇯🇵 TG@hkaa0|日本 17
+      - 🇯🇵 TG@hkaa0|日本 16
+      - 🇯🇵 JP 日本 31
+      - 🇯🇵 TG@hkaa0|日本 14
+      - 🇰🇷 TG@hkaa0|韩国 6
+      - 🇰🇷 韩国_1220014
+      - 🇨🇳 台湾_1220026
+      - 🇯🇵 -日本-172.105.203.92
+      - 🇯🇵 -日本-43.201.19.202
+      - 🇭🇰 -香港-47.242.17.241
       - 🇭🇰 -香港-47.242.174.112
-      - 🇭🇰 -香港-47.243.36.34
-      - 🇸🇬 -新加坡-52.220.137.71
-      - 🇯🇵 -日本-jp-a.tencent.cfd
-      - 🇯🇵 -日本-jp-orcle2.clientsconnect.live
+      - 🇭🇰 -香港-47.243.29.114
+      - 🇭🇰 -香港-8.210.104.101
+      - 🇭🇰 -香港-8.210.96.225
+      - 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download
+      - 🇯🇵 -日本东京-jp5.loving123.cloud
+      - 🇯🇵 -日本-jp8.czs1000.com
+      - 🇯🇵 -日本-jp.muieupdata.top
+      - 🇯🇵 -日本-jp02.170203.xyz
       - 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇰🇷 -韩国-kr1.czs1000.com
-      - 🇸🇬 -新加坡-sg4.sanfen001.pics
-      - 🇸🇬 -新加坡-xin1.mooooobai.top
-      - 🇨🇳 -台湾台北市-165.154.227.117
-      - 🇯🇵 -日本-hk1.ningmengshui.cyou
-      - 🇯🇵 -日本-v2.583181.xyz
+      - 🇸🇬 -新加坡-sg04.170203.xyz
+      - 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+      - 🇨🇳 -台湾台北市-tw-yt03.dudunai.com
+      - 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech
+      - 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top
+      - 🇸🇬 -新加坡-172.104.183.241
+      - 🇸🇬 -新加坡-sg1-v.sshmax.xyz
+      - 🇭🇰 -香港-hk80.sanfen001.pics
+      - 🇯🇵 -日本-05rb.mealstream.xyz
+      - 🇯🇵 -日本-26rb.mealstream.xyz
+      - 🇰🇷 -韩国-kr4.hgwc.xyz
       - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】
-      - 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2
-      - 🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 github.com/freefq - 日本  45
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
+      - JP_AzadNet(1)
+      - JP_AzadNet(2)
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
-      - 🇫🇷 https//github.com/Alvin9999/new-pac/wiki clash ip2 法国CDN1-1
-      - github.com/mehdimoghaddam-cell_11
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - github.com/mehdimoghaddam-cell 2
+      - mianfeifq 161
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
+      - speednode_0038
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 未知_1219622
-      - speednode_0098
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇺🇸_10
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - ️@filternet0142🏵️آموزش،ساخت،و،ارائه،سرورهای،رایگان،در،کانال🇨🇦_1
-      - mianfeifq_121820226c7d-441trojan
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - mianfeifq 160
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇪🇺 欧洲(油管破解资源君) 41
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
+      - 🇪🇺 欧洲(油管破解资源君) 9
+      - 🇦🇺 快嘴科技@来源：kkzui.com_澳大利亚_96
+      - 🇹🇷 土耳其_1220001
+      - 3 2
+      - 130.0.233.2031675
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 63
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 102
+      - GB_AzadNet(13)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 33
+      - GB_AzadNet(8)
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-13CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN
-      - 🇺🇸 美国_12191066
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN
-      - 🇺🇸 TG@hkaa0|美国 49
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 8
+      - 🇺🇸 美国(油管破解资源君) 14
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-10CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-2CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN 2
+      - 🇺🇸 美国(油管破解资源君) 47
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN
+      - 🇺🇸 美国(油管破解资源君2.0) 3
+      - 🇺🇸 快嘴科技@来源：kkzui.com_美国_118
+      - 🇺🇸 美国(油管破解资源君) 12
+      - 🇺🇸 美国(油管破解资源君2.0) 10
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 TG@hkaa0|美国 57
+      - 🇺🇸 TG@hkaa0|美国 92
+      - 🇺🇸 TG@hkaa0|美国 133
+      - 🇺🇸 TG@hkaa0|美国 75
+      - 🇺🇸 TG@hkaa0|美国 140
+      - 🇺🇸 TG@hkaa0|美国 100
+      - 🇺🇸 美国(油管破解资源君) 24
+      - 🇺🇸 美国(油管破解资源君) 23
+      - 🇺🇸 TG@hkaa0|美国 54
+      - US_AzadNet(1)
+      - 🇺🇸 TG@hkaa0|美国 102
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 TG@hkaa0|美国 5trojan//05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml443?allowInsecure=0#|19.91Mb
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-4CDN
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-9CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-7CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-1CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-14CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-10CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-12CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-5CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-5CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-8CDN
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "EHK5(youtube阿伟科技)151\r"
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 4
-      - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-29.douluo.beauty
+      - 🇭🇰 -香港-47.242.17.241
       - 🇭🇰 -香港-47.242.174.112
-      - 🇭🇰 -香港-47.243.36.34
+      - 🇭🇰 -香港-47.243.29.114
+      - 🇭🇰 -香港-8.210.104.101
+      - 🇭🇰 -香港-8.210.96.225
+      - 🇭🇰 -香港-zebra2.2022.2025.mlinuu.top
+      - 🇭🇰 -香港-hk80.sanfen001.pics
       - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】
       - HK_AzadNet
       - HK_AzadNet(1)
@@ -657,58 +624,58 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - ESG2(youtube阿伟科技)153
-      - 🇸🇬 新加坡_1219005
-      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇸🇬 新加坡(油管破解资源君) 2
       - 🇸🇬 TG@hkaa0|新加坡 8
-      - 🇸🇬 新加坡
-      - 🇸🇬 -新加坡-52.220.137.71
+      - 🇸🇬 TG@hkaa0|新加坡 7
+      - 🇸🇬 -新加坡-agroup.node3.v.nodelist-gfwairport1.download
       - 🇸🇬 -新加坡-sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-      - 🇸🇬 -新加坡-sg4.sanfen001.pics
-      - 🇸🇬 -新加坡-xin1.mooooobai.top
-      - 🇸🇬 [Trojan] 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇸🇬 -新加坡-sg04.170203.xyz
+      - 🇸🇬 -新加坡-sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+      - 🇸🇬 -新加坡-172.104.183.241
+      - 🇸🇬 -新加坡-sg1-v.sshmax.xyz
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "EJP1(youtube阿伟科技)152\r"
-      - 🇯🇵 TG@hkaa0|日本
-      - 🇯🇵 TG@hkaa0|日本 19
+      - 🇯🇵 快嘴科技@来源：kkzui.com_日本_143
+      - 🇯🇵 TG@hkaa0|日本 10
       - 🇯🇵 TG@hkaa0|日本 17
-      - 🇯🇵 TG@hkaa0|日本 14
       - 🇯🇵 TG@hkaa0|日本 16
-      - 🇯🇵 JP 日本 19
-      - 🇯🇵 github.com/freefq - 日本  3
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇯🇵 -日本-jp-a.tencent.cfd
-      - 🇯🇵 -日本-jp-orcle2.clientsconnect.live
-      - 🇯🇵 -日本-hk1.ningmengshui.cyou
-      - 🇯🇵 -日本-v2.583181.xyz
-      - 🇯🇵 [SS] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [SSR] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 [VMess] 🇯🇵 JP【付费推荐：goo.gs/vip】
-      - 🇯🇵 github.com/freefq - 日本  45
+      - 🇯🇵 JP 日本 31
+      - 🇯🇵 TG@hkaa0|日本 14
+      - 🇯🇵 -日本-172.105.203.92
+      - 🇯🇵 -日本-43.201.19.202
+      - 🇯🇵 -日本东京-jp5.loving123.cloud
+      - 🇯🇵 -日本-jp8.czs1000.com
+      - 🇯🇵 -日本-jp.muieupdata.top
+      - 🇯🇵 -日本-jp02.170203.xyz
+      - 🇯🇵 -日本-v-aws-tk-1.heima-bot.tech
+      - 🇯🇵 -日本-05rb.mealstream.xyz
+      - 🇯🇵 -日本-26rb.mealstream.xyz
       - JP_AzadNet
+      - JP_AzadNet(1)
+      - JP_AzadNet(2)
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾_1219028
-      - 🇨🇳 -台湾台北市-165.154.227.117
+      - 🇨🇳 台湾_1220026
+      - 🇨🇳 -台湾台北市-tw-yt03.dudunai.com
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_1219012
-      - 🇰🇷 -韩国-kr1.czs1000.com
-      - 🇰🇷 [VMess] 🇰🇷 KR【付费推荐：goo.gs/vip】 2
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_161
+      - 🇰🇷 快嘴科技@来源：kkzui.com_韩国_209
+      - 🇰🇷 TG@hkaa0|韩国 6
+      - 🇰🇷 韩国_1220014
+      - 🇰🇷 -韩国-kr4.hgwc.xyz
 rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
