@@ -27,7 +27,7 @@
     "id": 3,
     "remarks": "freefq/free",
     "site": "https://github.com/freefq/free",
-    "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "url": "https://raw.fastgit.org/freefq/free/master/v2|https://raw.githubusercontent.com/freefq/free/master/v2",
     "update_method": "auto",
     "enabled": true
   },
@@ -43,7 +43,7 @@
     "id": 5,
     "remarks": "vpei/Free-Node-Merge",
     "site": "https://github.com/vpei/Free-Node-Merge",
-    "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
+    "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt|https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/clash.yaml",
     "update_method": "auto",
     "enabled": true
   },
@@ -51,7 +51,7 @@
     "id": 6,
     "remarks": "colatiger/v2ray-nodes",
     "site": "https://github.com/colatiger/v2ray-nodes",
-    "url": "https://proxy.huwo.club/clash.yaml",
+    "url": "https://proxy.huwo.club/clash.yaml|https://proxy.huwo.club/v2ray.txt",
     "update_method": "auto",
     "enabled": true
   },
@@ -161,9 +161,9 @@
   },
   {
     "id": 20,
-    "remarks": "gfwglass 节点池",
-    "site": "https://gfwglass.tk",
-    "url": "https://gfwglass.tk/clash/proxies",
+    "remarks": "webdao/v2ray",
+    "site": "https://github.com/webdao/v2ray",
+    "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
     "update_method": "auto",
     "enabled": true
   },
@@ -171,7 +171,7 @@
     "id": 21,
     "remarks": "Meteor-1337/Meteor",
     "site": "https://github.com/Meteor-1337/Meteor",
-    "url": "https://raw.githubusercontent.com/Meteor-1337/Meteor/main/MeteorVIPFLYajskdkl",
+    "url": "https://raw.githubusercontent.com/Meteor-1337/Meteor/main/MeteorVIPFLY4",
     "update_method": "auto",
     "enabled": true
   },
