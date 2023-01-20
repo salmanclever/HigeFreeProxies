@@ -108,6 +108,23 @@ class update():
                     return current_url
             else:
                 return current_url
+        if id == 20:
+            url_update = 'https://github.com/webdao/v2ray'
+
+            if self.url_updated(url_update):
+                try:
+                    resp = requests.get(url_update, timeout=5)
+                    raw_content = resp.text
+
+                    raw_content = raw_content.replace('amp;', '')
+                    pattern = re.compile(r'https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt')
+                    
+                    new_url = re.findall(pattern, raw_content)[0]
+                    return new_url
+                except Exception:
+                    return current_url
+            else:
+                return current_url
 
 if __name__ == '__main__':
     update()
