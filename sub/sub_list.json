@@ -164,7 +164,7 @@
     "remarks": "webdao/v2ray",
     "site": "https://github.com/webdao/v2ray",
     "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
-    "update_method": "auto",
+    "update_method": "page_release",
     "enabled": true
   },
   {
