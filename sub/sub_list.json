@@ -153,11 +153,11 @@
   },
   {
     "id": 19,
-    "remarks": "ObcbO/auto-subscribe",
-    "site": "https://github.com/ObcbO/auto-subscribe",
-    "url": "https://raw.githubusercontent.com/ObcbO/auto-subscribe/main/subscribe/v2ray.txt",
+    "remarks": "ShareCentre Pro",
+    "site": "https://t.me/ShareCentrePro",
+    "url": "https://sub.sharecentre.online/sub",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 20,
