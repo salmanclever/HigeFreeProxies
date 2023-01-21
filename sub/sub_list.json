@@ -85,7 +85,7 @@
     "site": "https://github.com/yu-steven/openit",
     "url": "https://raw.githubusercontent.com/yu-steven/openit/main/Clash.yaml",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "site": "https://github.com/alanbobs999/TopFreeProxies",
     "url": "https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/main/Eternity",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 12,
@@ -164,7 +164,7 @@
     "remarks": "webdao/v2ray",
     "site": "https://github.com/webdao/v2ray",
     "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
-    "update_method": "page_release",
+    "update_method": "auto",
     "enabled": true
   },
   {
@@ -249,17 +249,17 @@
   },
   {
     "id": 31,
-    "remarks": "ok1991/v2ray",
-    "site": "https://github.com/ok1991/v2ray",
-    "url": "https://topvpn.team/github/t.list",
+    "remarks": "Jia-Pingwa/free-v2ray-merge",
+    "site": "https://github.com/Jia-Pingwa/free-v2ray-merge",
+    "url": "https://raw.githubusercontent.com/Jia-Pingwa/free-v2ray-merge/main/output.txt",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 32,
     "remarks": "parkerpa/qw",
     "site": "https://github.com/parkerpa/qw",
-    "url": "https://raw.githubusercontent.com/parkerpa/qw/main/clash",
+    "url": "https://raw.githubusercontent.com/parkerpa/qw/main/clash|https://raw.githubusercontent.com/parkerpa/qw/main/v2ray",
     "update_method": "auto",
     "enabled": true
   },
