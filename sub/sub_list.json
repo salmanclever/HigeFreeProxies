@@ -81,11 +81,11 @@
   },
   {
     "id": 10,
-    "remarks": "yu-steven/openit",
-    "site": "https://github.com/yu-steven/openit",
-    "url": "https://raw.githubusercontent.com/yu-steven/openit/main/Clash.yaml",
+    "remarks": "aiboboxx/clashfree",
+    "site": "https://github.com/aiboboxx/clashfree",
+    "url": "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 11,
