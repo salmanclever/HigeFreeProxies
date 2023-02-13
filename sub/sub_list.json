@@ -273,11 +273,11 @@
   },
   {
     "id": 34,
-    "remarks": "songkaik/Sub",
-    "site": "https://github.com/songkaik/Sub",
-    "url": "https://raw.githubusercontent.com/songkaik/Sub/main/v2rayN",
+    "remarks": "baip01",
+    "site": "https://github.com/baip01",
+    "url": "https://raw.githubusercontent.com/baip01/yhkj/main/v2ray|https://raw.githubusercontent.com/baip01/clash/main/clash",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 35,
