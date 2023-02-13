@@ -161,11 +161,11 @@
   },
   {
     "id": 20,
-    "remarks": "webdao/v2ray",
-    "site": "https://github.com/webdao/v2ray",
-    "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
-    "update_method": "auto",
-    "enabled": false
+    "remarks": "pojiezhiyuanjun/2023",
+    "site": "https://github.com/pojiezhiyuanjun/2023",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/0212.txt",
+    "update_method": "change_date",
+    "enabled": true
   },
   {
     "id": 21,
