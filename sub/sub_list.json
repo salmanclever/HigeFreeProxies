@@ -51,7 +51,7 @@
     "id": 6,
     "remarks": "colatiger/v2ray-nodes",
     "site": "https://github.com/colatiger/v2ray-nodes",
-    "url": "https://proxy.huwo.club/clash.yaml|https://proxy.huwo.club/v2ray.txt",
+    "url": "https://proxy.huwo.club/c.yaml|https://proxy.huwo.club/v.txt|https://proxy.huwo.club/s.txt",
     "update_method": "auto",
     "enabled": true
   },
@@ -165,7 +165,7 @@
     "site": "https://github.com/webdao/v2ray",
     "url": "https://raw.githubusercontent.com/webdao/v2ray/master/nodes.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 21,
@@ -253,7 +253,7 @@
     "site": "https://github.com/Jia-Pingwa/free-v2ray-merge",
     "url": "https://raw.githubusercontent.com/Jia-Pingwa/free-v2ray-merge/main/output.txt",
     "update_method": "auto",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 32,
